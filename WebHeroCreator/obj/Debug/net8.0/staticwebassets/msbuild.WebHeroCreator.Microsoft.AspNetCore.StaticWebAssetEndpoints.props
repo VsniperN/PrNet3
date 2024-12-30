@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/WebHeroCreator/css/site.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4BJaGn\u002BgDWh\u002BGSbKvxJlga3zOk2EFMO8N6tuielj2oo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2782"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00224BJaGn\u002BgDWh\u002BGSbKvxJlga3zOk2EFMO8N6tuielj2oo=\u0022"},{"Name":"Last-Modified","Value":"Fri, 13 Dec 2024 14:49:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WebHeroCreator/css/site.cxf1ka107u.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cxf1ka107u"},{"Name":"integrity","Value":"sha256-4BJaGn\u002BgDWh\u002BGSbKvxJlga3zOk2EFMO8N6tuielj2oo="},{"Name":"label","Value":"_content/WebHeroCreator/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2782"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00224BJaGn\u002BgDWh\u002BGSbKvxJlga3zOk2EFMO8N6tuielj2oo=\u0022"},{"Name":"Last-Modified","Value":"Fri, 13 Dec 2024 14:49:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,34 @@
+﻿@model IEnumerable<WebHeroCreator.Models.HeroModel>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Hero List";
+}
+
+<h1>Heroes</h1>
+<link rel="stylesheet" href="css/site.css" />
+<a href="/Home/Create" class="btn btn-primary mb-3">Create New Hero</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Clan</th>
+            <th>Power Attribute</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var hero in Model)
+        {
+            <tr>
+                <td>@hero.Name</td>
+                <td>@hero.ClanName</td>
+                <td>@hero.PowerAttribute</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@hero.HeroId" class="btn btn-primary btn-sm">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@hero.HeroId" class="btn btn-danger btn-sm">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

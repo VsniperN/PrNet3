@@ -1,0 +1,36 @@
+﻿@model WebHeroCreator.Models.HeroModel
+
+<h2>Edit Hero</h2>
+<link rel="stylesheet" href="~/css/site.css" />
+<form method="post" action="/Home/Edit">
+    <input type="hidden" name="HeroId" value="@Model.HeroId" />
+
+    <div class="form-group">
+        <label for="Name">Hero Name</label>
+        <input type="text" class="form-control" id="Name" name="Name" value="@Model.Name" required />
+    </div>
+
+    <div class="form-group">
+        <label for="ClanName">Clan Name</label>
+        <select class="form-control" id="ClanName" name="ClanName" required>
+            <option value="">-- Select Clan --</option>
+            @foreach (var clan in ViewBag.Clans)
+            {
+                <option value="@clan" @(Model.ClanName == clan ? "selected" : "")>@clan</option>
+            }
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="PowerAttribute">Power Attribute</label>
+        <select class="form-control" id="PowerAttribute" name="PowerAttribute" required>
+            <option value="">-- Select Attribute --</option>
+            @foreach (var a in ViewBag.PowerAttributes)
+            {
+                <option value="@a" @(Model.PowerAttribute == a ? "selected" : "")>@a</option>
+            }
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+</form>

@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "f5kNDa0wUJu4mNFyZir66x4B6rvYKavmyiCdmWZVu4E=",
+  "Source": "WebHeroCreator",
+  "BasePath": "_content/WebHeroCreator",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebHeroCreator\\wwwroot",
+      "Source": "WebHeroCreator",
+      "ContentRoot": "C:\\Users\\heavy\\OneDrive\\Робочий стіл\\абдукариму\\WebHeroCreator\\WebHeroCreator\\wwwroot\\",
+      "BasePath": "_content/WebHeroCreator",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\heavy\\OneDrive\\Робочий стіл\\абдукариму\\WebHeroCreator\\WebHeroCreator\\wwwroot\\css\\site.css",
+      "SourceId": "WebHeroCreator",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\heavy\\OneDrive\\Робочий стіл\\абдукариму\\WebHeroCreator\\WebHeroCreator\\wwwroot\\",
+      "BasePath": "_content/WebHeroCreator",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cxf1ka107u",
+      "Integrity": "4BJaGn+gDWh+GSbKvxJlga3zOk2EFMO8N6tuielj2oo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\heavy\\OneDrive\\Робочий стіл\\абдукариму\\WebHeroCreator\\WebHeroCreator\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2782"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4BJaGn+gDWh+GSbKvxJlga3zOk2EFMO8N6tuielj2oo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 14:49:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4BJaGn+gDWh+GSbKvxJlga3zOk2EFMO8N6tuielj2oo="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.cxf1ka107u.css",
+      "AssetFile": "C:\\Users\\heavy\\OneDrive\\Робочий стіл\\абдукариму\\WebHeroCreator\\WebHeroCreator\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2782"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4BJaGn+gDWh+GSbKvxJlga3zOk2EFMO8N6tuielj2oo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 14:49:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cxf1ka107u"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4BJaGn+gDWh+GSbKvxJlga3zOk2EFMO8N6tuielj2oo="
+        }
+      ]
+    }
+  ]
+}
